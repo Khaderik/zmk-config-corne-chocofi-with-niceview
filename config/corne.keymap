@@ -34,7 +34,7 @@
 &none  &mt ESCAPE FR_A  &kp FR_Z           &kp FR_E           &kp FR_R             &mt DEL FR_T       &kp FR_Y     &kp FR_U              &kp FR_I            &kp FR_O            &kp FR_P            &none
 &none  &mt LCTRL FR_Q   &mt LEFT_GUI FR_S  &mt LEFT_ALT FR_D  &mt LEFT_SHIFT FR_F  &kp FR_G           &kp FR_H     &mt RIGHT_SHIFT FR_J  &mt RIGHT_ALT FR_K  &mt RIGHT_GUI FR_L  &mt RCTRL FR_M      &none
 &none  &kp FR_W         &kp FR_X           &kp FR_C           &kp FR_V             &kp FR_B           &kp FR_N     &kp FR_COMMA          &kp FR_SEMI         &kp FR_COLON        &kp FR_EXCLAMATION  &none
-                                           &kp LCTRL          &lt 3 TAB            &lt 1 BACKSPACE    &lt 2 SPACE  &tog 3                &kp RSHFT
+                                           &kp LCTRL          &lt 3 TAB            &lt 1 BACKSPACE    &lt 2 SPACE  &kp RIGHT_SHIFT       &tog 3
             >;
 
             label = "BASE";
@@ -76,10 +76,10 @@
 
         Navigation {
             bindings = <
-&none  &kp ESC    &kp C_VOLUME_DOWN  &mt PAGE_UP UP            &kp C_VOLUME_UP  &kp K_MUTE          &none   &mkp MB1        &mmv MOVE_UP    &mkp MB2         &none         &none
-&none  &kp LCTRL  &mt HOME LEFT      &mt PAGE_DOWN DOWN_ARROW  &mt END RIGHT    &kp C_PLAY_PAUSE    &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RCTRL     &none
-&none  &none      &kp C_PREVIOUS     &none                     &kp C_NEXT       &kp ENTER           &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &none
-                                     &trans                    &trans           &trans              &trans  &trans          &trans
+&none  &kp ESC     &kp C_VOLUME_DOWN  &mt PAGE_UP UP            &kp C_VOLUME_UP  &kp K_MUTE          &none         &mkp MB1        &mmv MOVE_UP    &mkp MB2         &none         &none
+&none  &kp LCTRL   &mt HOME LEFT      &mt PAGE_DOWN DOWN_ARROW  &mt END RIGHT    &kp C_PLAY_PAUSE    &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp RCTRL     &none
+&none  &bt BT_CLR  &kp C_PREVIOUS     &none                     &kp C_NEXT       &kp ENTER           &bt BT_SEL 4  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &none
+                                      &trans                    &trans           &trans              &trans        &trans          &trans
             >;
 
             label = "NAV";
