@@ -66,9 +66,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &none   &kp RA(FR_SQT)                       &kp RA(FR_EQUAL)                    &kp LESS_THAN  &kp GREATER_THAN  &none
-&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none   &mt RIGHT_SHIFT FR_LEFT_PARENTHESIS  &mt RIGHT_ALT FR_RIGHT_PARENTHESIS  &none          &kp RCTRL         &none
-&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &none   &kp LEFT_BRACKET                     &kp RA(FR_RIGHT_PARENTHESIS)        &none          &none             &none
+&none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &none   &kp RA(FR_SQT)                       &kp RA(FR_EQUAL)                    &kp FR_LESS_THAN  &kp FR_GREATER_THAN  &none
+&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none   &mt RIGHT_SHIFT FR_LEFT_PARENTHESIS  &mt RIGHT_ALT FR_RIGHT_PARENTHESIS  &none             &kp RCTRL            &none
+&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &none   &kp RA(FR_LEFT_PARENTHESIS)          &kp RA(FR_RIGHT_PARENTHESIS)        &none             &none                &none
                                                 &trans                &trans               &trans            &trans  &trans                               &trans
             >;
 
