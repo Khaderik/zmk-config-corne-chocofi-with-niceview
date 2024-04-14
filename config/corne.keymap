@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include "keymap_french.h"
 
 / {
     keymap {
@@ -53,7 +54,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp AMPS  &kp DQT    &kp DQT    &kp SQT    &kp PRCNT    &none   &kp LBRC  &kp RBRC  &kp LT  &kp LS(GT)  &none
+&none  &kp FR_AMPR  &kp FR_EACU   &kp DQT    &kp SQT    &kp PRCNT    &none   &kp LBRC  &kp RBRC  &kp LT  &kp LS(GT)  &none
 &none  &kp LPAR  &kp MINUS  &trans     &kp UNDER  &trans       &none   &kp LPAR  &kp RPAR  &none   &none       &none
 &none  &trans    &trans     &kp EQUAL  &kp STAR   &kp DLLR     &none   &kp LBKT  &kp RBKT  &none   &none       &none
                             &trans     &trans     &trans       &trans  &trans    &trans
