@@ -27,7 +27,7 @@
             bindings = <
 &none  &mt ESCAPE A  &kp Z           &kp E           &kp R             &mt DEL T          &kp Y        &kp U              &kp I             &kp O            &kp P               &none
 &none  &mt LCTRL Q   &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G              &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_ALT K   &mt RIGHT_GUI L  &mt RCTRL M         &none
-&none  &kp W         &kp X           &kp C           &kp V             &kp B              &kp N        &kp FR_COMMA       &kp FR_SEMICOLON  &kp FR_COLON     &kp FR_EXCLAMATION  &none
+&none  &kp W         &kp X           &kp C           &kp V             &kp B              &kp N        &kp FR_COMM  &kp FR_SCLN  &kp FR_COLN  &kp FR_EXLM  &none
                                      &kp LCTRL       &lt 3 TAB         &lt 1 BACKSPACE    &lt 2 SPACE  &kp RIGHT_SHIFT    &tog 3
             >;
 
@@ -47,9 +47,9 @@
 
         Symbol {
             bindings = <
-&none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &none   &kp LBRC                          &kp RBRC                         &kp LT  &kp LS(GT)  &none
-&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none   &mt RIGHT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &none   &kp RCTRL   &none
-&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp STAR             &kp DLLR          &none   &kp LBKT                          &kp RBKT                         &none   &none       &none
+&none  &kp FR_AMPR  &kp FR_EACU  &kp FR_DQUO  &kp FR_QUOT  &kp FR_CARET      &none   &kp LBRC                          &kp RBRC                         &kp LT  &kp LS(GT)  &none
+&none  &kp FR_LPRN  &kp FR_MINS  &kp FR_EGRV  &kp FR_UNDS    &kp FR_UGRV    &none   &mt RIGHT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &none   &kp RCTRL   &none
+&none  &kp FR_CCED  &kp FR_AGRV  &kp EQUAL             &kp STAR             &kp DLLR          &none   &kp LBKT                          &kp RBKT                         &none   &none       &none
                                                 &trans                &trans               &trans            &trans  &trans                            &trans
             >;
 
