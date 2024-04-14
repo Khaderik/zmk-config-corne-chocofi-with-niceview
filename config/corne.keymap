@@ -45,7 +45,7 @@
             label = "FN";
         };
 
-        raise_layer {
+        Symbol {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -53,11 +53,13 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&none  &kp AMPS  &kp DQT    &kp DQT    &kp SQT    &kp PRCNT    &none   &kp LBRC  &kp RBRC  &kp LT  &kp LS(GT)  &none
+&none  &kp LPAR  &kp MINUS  &trans     &kp UNDER  &trans       &none   &kp LPAR  &kp RPAR  &none   &none       &none
+&none  &trans    &trans     &kp EQUAL  &kp STAR   &kp DLLR     &none   &kp LBKT  &kp RBKT  &none   &none       &none
+                            &trans     &trans     &trans       &trans  &trans    &trans
             >;
+
+            label = "SYM";
         };
 
         layer_3 {
