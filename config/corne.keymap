@@ -34,7 +34,7 @@
             bindings = <
 &none  &mt ESCAPE FR_A  &kp FR_Z           &kp FR_E           &kp FR_R             &mt DEL FR_T       &kp FR_Y     &kp FR_U              &kp FR_I            &kp FR_O            &kp FR_P            &none
 &none  &mt LCTRL FR_Q   &mt LEFT_GUI FR_S  &mt LEFT_ALT FR_D  &mt LEFT_SHIFT FR_F  &kp FR_G           &kp FR_H     &mt RIGHT_SHIFT FR_J  &mt RIGHT_ALT FR_K  &mt RIGHT_GUI FR_L  &mt RCTRL FR_M      &none
-&none  &kp FR_W         &kp FR_X           &kp FR_C           &kp FR_V             &kp FR_B           &kp FR_N     &kp KP_COMMA          &kp FR_SEMI         &kp FR_COLON        &kp FR_EXCLAMATION  &none
+&none  &kp FR_W         &kp FR_X           &kp FR_C           &kp FR_V             &kp FR_B           &kp FR_N     &kp FR_COMMA          &kp FR_SEMI         &kp FR_COLON        &kp FR_EXCLAMATION  &none
                                            &kp LCTRL          &lt 3 TAB            &lt 1 BACKSPACE    &lt 2 SPACE  &kp RIGHT_SHIFT       &tog 3
             >;
 
@@ -66,9 +66,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &none   &kp RA(FR_SQT)                       &kp RA(FR_EQUAL)                    &kp COMMA  &kp DOT    &none
-&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none   &mt RIGHT_SHIFT FR_LEFT_PARENTHESIS  &mt RIGHT_ALT FR_RIGHT_PARENTHESIS  &none      &kp RCTRL  &none
-&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &none   &kp FR_LBKT                          &kp FR_RBKT                         &none      &none      &none
+&none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &none   &kp RA(FR_SQT)                       &kp RA(FR_EQUAL)                    &kp FR_LESS_THAN  &kp FR_GREATER_THAN  &none
+&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none   &mt RIGHT_SHIFT FR_LEFT_PARENTHESIS  &mt RIGHT_ALT FR_RIGHT_PARENTHESIS  &none             &kp RCTRL            &none
+&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &none   &kp FR_LBKT                          &kp FR_RBKT                         &none             &none                &none
                                                 &trans                &trans               &trans            &trans  &trans                               &trans
             >;
 
