@@ -22,7 +22,12 @@
 
         Entrer2 {
             bindings = <&kp ENTER>;
-            key-positions = <38 16>;
+            key-positions = <16 37>;
+        };
+
+        Gaming_Layer {
+            bindings = <&tog 4>;
+            key-positions = <38 37 36>;
         };
     };
 
@@ -89,6 +94,17 @@
             >;
 
             label = "NAV";
+        };
+
+        Gaming {
+            bindings = <
+&trans  &kp ESC    &kp FR_A  &kp FR_Z  &kp FR_E        &kp FR_R     &kp FR_T  &kp FR_Y  &kp FR_U            &kp FR_I          &kp FR_O      &trans
+&trans  &kp SPACE  &kp FR_Q  &kp FR_S  &kp FR_D        &kp FR_F     &kp FR_G  &kp FR_H  &kp FR_J            &kp FR_K          &kp FR_L      &trans
+&trans  &kp TAB    &kp FR_W  &kp FR_X  &kp FR_C        &kp FR_V     &kp FR_B  &kp FR_N  &kp FR_COMMA        &kp FR_SEMICOLON  &kp FR_COLON  &trans
+                             &kp FR_I  &kp LEFT_SHIFT  &kp LCTRL    &kp FR_P  &kp FR_M  &kp FR_EXCLAMATION
+            >;
+
+            label = "GAMING";
         };
     };
 };
