@@ -23,7 +23,7 @@
 
         Entrer2 {
             bindings = <&kp ENTER>;
-            key-positions = <16 37>;
+            key-positions = <16 38>;
         };
 
         Gaming_Layer {
@@ -37,7 +37,7 @@
         };
 
         lm_Num {
-            bindings = <&lm_Num 2 LEFT_SHIFT>;
+            bindings = <&mo 2>;
             key-positions = <19 39>;
         };
     };
@@ -73,13 +73,13 @@
             bindings =
                 <&macro_param_1to1>,
                 <&macro_press>,
-                <&mo MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>,
+                <&tog MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
                 <&macro_param_2to1>,
                 <&macro_release>,
                 <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
                 <&macro_release>,
-                <&kp MACRO_PLACEHOLDER>;
+                <&tog MACRO_PLACEHOLDER>;
 
             label = "TOG_MOD";
         };
