@@ -37,7 +37,7 @@
         };
 
         lm_Num {
-            bindings = <&mo 2>;
+            bindings = <&lm_Num 2 LSHFT>;
             key-positions = <19 39>;
         };
     };
