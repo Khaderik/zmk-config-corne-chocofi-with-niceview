@@ -146,15 +146,25 @@
             label = "NAV";
         };
 
-        Gaming {
+        Gaming1 {
             bindings = <
-&trans  &kp ESC    &kp FR_A  &kp FR_Z  &kp FR_E        &kp FR_R     &kp FR_T  &kp FR_Y  &kp FR_U            &kp FR_I          &kp FR_O      &trans
-&trans  &kp SPACE  &kp FR_Q  &kp FR_S  &kp FR_D        &kp FR_F     &kp FR_G  &kp FR_H  &kp FR_J            &kp FR_K          &kp FR_L      &trans
-&trans  &kp TAB    &kp FR_W  &kp FR_X  &kp FR_C        &kp FR_V     &kp FR_B  &kp FR_N  &kp FR_COMMA        &kp FR_SEMICOLON  &kp FR_COLON  &trans
-                             &kp FR_I  &kp LEFT_SHIFT  &kp LCTRL    &kp FR_P  &kp FR_M  &kp FR_EXCLAMATION
+&none  &kp ESC    &kp FR_A  &kp FR_Z    &kp FR_E        &kp FR_R     &kp FR_T  &kp FR_Y     &kp FR_U            &kp FR_I      &kp FR_O    &none
+&none  &kp SPACE  &kp FR_Q  &kp FR_S    &kp FR_D        &kp FR_F     &kp FR_G  &kp FR_H     &kp FR_J            &kp FR_K      &kp FR_L    &none
+&none  &kp TAB    &kp FR_W  &kp FR_X    &kp FR_C        &kp FR_V     &kp FR_B  &kp FR_N     &kp FR_M            &kp FR_COMMA  &kp FR_DOT  &none
+                            &lt 5 FR_I  &kp LEFT_SHIFT  &kp LCTRL    &kp FR_P  &kp FR_SEMI  &kp FR_EXCLAMATION
             >;
 
-            label = "GAMING";
+            label = "GMN1";
+        };
+
+        Gaming2 {
+            label = "GMN2";
+            bindings = <
+&none  &kp F1  &kp F2   &kp F3   &kp F4          &kp N1       &kp N4  &kp F13  &kp F14  &kp F15  &kp F16  &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8          &kp N2       &kp N5  &kp F17  &kp F18  &kp F19  &kp F20  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12         &kp N3       &kp N6  &kp F21  &kp F22  &kp F23  &kp F24  &none
+                        &trans   &kp LEFT_SHIFT  &kp LCTRL    &kp N7  &kp N8   &kp N9
+            >;
         };
     };
 };
