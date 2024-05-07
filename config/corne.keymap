@@ -127,8 +127,8 @@
 
             bindings = <
 &none  &kp FR_AMPERSAND         &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES  &kp FR_SINGLE_QUOTE  &kp FR_CARET      &kp FR_PIPE  &kp FR_LEFT_PARENTHESIS     &kp FR_RIGHT_PARENTHESIS    &kp FR_BACKSLASH  &kp FR_SLASH     &none
-&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &none        &mt RIGHT_SHIFT RA(FR_SQT)  &mt RIGHT_ALT RA(FR_EQUAL)  &kp FR_LT         &mt RCTRL FR_GT  &none
-&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &none        &kp FR_LEFT_BRACKET         &kp FR_RBKT                 &none             &none            &none
+&none  &kp FR_LEFT_PARENTHESIS  &kp FR_MINUS    &kp FR_E_GRAVE        &kp FR_UNDERSCORE    &kp FR_U_GRAVE    &kp FR_HASH  &mt RIGHT_SHIFT RA(FR_SQT)  &mt RIGHT_ALT RA(FR_EQUAL)  &kp FR_LT         &mt RCTRL FR_GT  &none
+&none  &kp FR_C_CEDILLA         &kp FR_A_GRAVE  &kp EQUAL             &kp FR_ASTRK         &kp FR_DOLLAR     &kp FR_AT    &kp FR_LEFT_BRACKET         &kp FR_RBKT                 &kp FR_GRAVE      &none            &none
                                                 &trans                &trans               &trans            &trans       &trans                      &trans
             >;
 
