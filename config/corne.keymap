@@ -41,6 +41,11 @@
             bindings = <&ext_power EP_TOG>;
             key-positions = <41 40 39>;
         };
+
+        Soft_Off {
+            bindings = <&soft_off>;
+            key-positions = <25 26 27 28>;
+        };
     };
 
     behaviors {
@@ -99,7 +104,7 @@
             bindings = <
 &none  &mt ESCAPE FR_A  &kp FR_Z           &kp FR_E           &kp FR_R             &mt DEL FR_T       &kp FR_Y     &kp FR_U              &kp FR_I            &kp FR_O            &kp FR_P            &none
 &none  &hm LCTRL FR_Q   &mt LEFT_GUI FR_S  &hm LEFT_ALT FR_D  &hm LEFT_SHIFT FR_F  &kp FR_G           &kp FR_H     &hm RIGHT_SHIFT FR_J  &hm LEFT_ALT FR_K   &mt RIGHT_GUI FR_L  &hm RCTRL FR_M      &none
-&none  &kp FR_W         &kp FR_X           &kp FR_C           &kp FR_V             &kp FR_B           &kp FR_N     &kp FR_COMMA          &kp FR_SEMI         &kp FR_COLON        &kp FR_EXCLAMATION  &none
+&none  &kp FR_W         &kp FR_X           &kp FR_C           &kp FR_V             &kp FR_B           &kp FR_N     &kp FR_COMMA          &hm RALT FR_SEMI    &kp FR_COLON        &kp FR_EXCLAMATION  &none
                                            &kp LCTRL          &lt 3 TAB            &lt 1 BACKSPACE    &lt 2 SPACE  &kp CAPSLOCK          &lm_Num 2 CAPSLOCK
             >;
 
