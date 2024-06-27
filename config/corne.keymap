@@ -42,9 +42,14 @@
             key-positions = <41 40 39>;
         };
 
-        Soft_Off {
+        Soft_Off_L {
             bindings = <&soft_off>;
             key-positions = <25 26 27 28>;
+        };
+
+        Soft_Off_R {
+            bindings = <&soft_off>;
+            key-positions = <31 32 33 34>;
         };
     };
 
