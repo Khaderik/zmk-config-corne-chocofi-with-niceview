@@ -47,9 +47,14 @@
             key-positions = <25 26 27 28>;
         };
 
-        Soft_Off_R {
-            bindings = <&soft_off>;
-            key-positions = <31 32 33 34>;
+        reset_r {
+            bindings = <&sys_reset>;
+            key-positions = <9 10 8 7>;
+        };
+
+        reset {
+            bindings = <&sys_reset>;
+            key-positions = <1 2 3 4>;
         };
     };
 
