@@ -1,1 +1,1 @@
-ZMK_UNICODE_PAIR(fr_e_aigu, 0x00E9, 0x00C9);
+#define fr_e_aigu_cap &uc 00E9 00C9 // é / É
