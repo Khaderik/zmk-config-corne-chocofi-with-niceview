@@ -1,1 +1,1 @@
-#define EAIG &uc 00E9 00C9 // é / É
+ZMK_UNICODE_PAIR(fr_e_aigu, 0x00E9, 0x00C9);
