@@ -63,7 +63,7 @@
 
         ctrl+space {
             bindings = <&kp LC(FR_SPACE)>;
-            key-positions = <4 3>;
+            key-positions = <4 2>;
         };
     };
 
