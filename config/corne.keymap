@@ -60,6 +60,11 @@
             bindings = <&soft_off>;
             key-positions = <31 32 33 34>;
         };
+
+        ctrl+space {
+            bindings = <&kp LC(FR_SPACE)>;
+            key-positions = <13 16>;
+        };
     };
 
     behaviors {
