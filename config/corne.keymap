@@ -61,8 +61,8 @@
             key-positions = <31 32 33 34>;
         };
 
-        ctrl+space {
-            bindings = <&kp LC(FR_SPACE)>;
+        ctrl+Win {
+            bindings = <&kp LC(LEFT_WIN)>;
             key-positions = <4 2>;
         };
     };
